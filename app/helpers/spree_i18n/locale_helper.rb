@@ -15,7 +15,9 @@ module SpreeI18n
     # Need to manually add en to the array because the en.yml was moved from
     # this project. spree/spree now has those keys.
     def all_locales_options
-      Locale.all.map { |locale| locale_presentation(locale) }.push(['English (EN)', :en])
+      dir = File.join(File.dirname(__FILE__), '/../../../config/locales')
+      all = Dir["#{dir}/*.yml"].map { |f| File.basename(f, '.yml').to_sym }
+      all.map { |locale| locale_presentation(locale) }.push(['English (EN)', :en])
     end
 
     private
