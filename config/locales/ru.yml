@@ -492,7 +492,9 @@ ru:
     associated_adjustment_closed: "Связанная корректировка закрыта, и не будет пересчитана. Хотите ли вы открыть её?"
     at_symbol: '@'
     authorization_failure: "Ошибка авторизации"
-    authorized:
+    authorized: "Одобренные"
+    author_link: "Ссылка на автора"
+    author_name: "Имя автора"
     auto_capture: "Автозахват"
     available_on: "Доступно с"
     average_order_value: "Средняя сумма заказа"
@@ -519,8 +521,9 @@ ru:
     calculator: "Калькулятор"
     calculator_settings_warning: "При изменении типа калькулятора, вы должны сохранить это изменение, прежде, чем вы сможете изменить настройки калькулятора."
     cancel: "Отмена"
-    canceled_at:
-    canceler:
+    canceled: "Отменён"
+    canceled_at: "Отменен(а) в"
+    canceler: "Отменивший"
     cannot_create_customer_returns:
     cannot_create_payment_without_payment_methods: "Нельзя создать платеж для заказа, если не настроен ни один из способов оплаты."
     cannot_create_returns: "Невозможно оформить возврат, т.к. этот заказ ещё не отправлен."
@@ -546,7 +549,7 @@ ru:
     choose_location:
     city: "Город"
     clear_cache: "Очистить кэш"
-    clear_cache_ok:
+    clear_cache_ok: "Кэш очищен"
     clear_cache_warning: "Внимание, данное действие приведёт к очистке кэша"
     click_and_drag_on_the_products_to_sort_them: "Перетаскивайте товары мышкой для сортировки"
     clone: "Копировать"
@@ -628,9 +631,9 @@ ru:
       first_day: 1
       format: "%d.%m.%Y"
       js_format: dd.mm.yy
-    date_range: "Период времени"
+    date_range: "Временной период"
     default: "По умолчанию"
-    default_refund_amount:
+    default_refund_amount: "Стандартный размер возврата"
     default_tax: "Стандартный налог"
     default_tax_zone: "Стандартный налоговый регион"
     delete: "Удалить"
@@ -645,26 +648,22 @@ ru:
     dismiss_banner: "Нет, спасибо! Я не заинтересован. Не показывайте мне больше это сообщение."
     display: "Показать"
     display_currency: "Показывать валюту"
-    doesnt_track_inventory:
+    doesnt_track_inventory: "Не следить за остатками"
     edit: "Редактировать"
-    editing_resource:
+    editing_resource: "Редактирование %{resource}"
     editing_rma_reason:
     editing_user: "Редактирование пользователя"
     eligibility_errors:
       messages:
-        has_excluded_product:
-        item_total_less_than:
-        item_total_less_than_or_equal:
-        item_total_more_than:
-        item_total_more_than_or_equal:
-        limit_once_per_user:
-        missing_product:
-        missing_taxon:
-        no_applicable_products:
-        no_matching_taxons:
-        no_user_or_email_specified:
-        no_user_specified:
-        not_first_order:
+        has_excluded_product: В вашей корзине корзине находится продукт препятствующий применению скидочного купона.
+        item_total_less_than: "Скидочный купон не может быть применён к заказу с итоговой суммой меньше %{amount}."
+        item_total_less_than_or_equal: "Скидочный купон не может быть применён к заказу с итоговой суммой меньше или равной %{amount}."
+        item_total_more_than: "Скидочный купон не может быть применён к заказу с итоговой суммой больше %{amount}."
+        item_total_more_than_or_equal: "Скидочный купон не может быть применён к заказу с итоговой суммой больше или равной %{amount}."
+        limit_once_per_user: Скидочный купон может быть применён только один раз.
+        missing_product: Скидочный купон не может быть применён, так как в вашем заказе нет необходимых товаров.
+        no_user_specified: Вам нужно войти на сайт, чтобы применить скидочный купон.
+        not_first_order: Этот купон может быть применён только к первому заказу.
     email: "Электронная почта"
     empty: "пусто"
     empty_cart: "Очистить корзину"
@@ -741,6 +740,7 @@ ru:
       language: "Язык"
       localization_settings: "Настройки локализации"
       this_file_language: Russian
+      locales_displayed_on_frontend_select_box: "Локаль, отображаемая в frontend части (раскрывающийся список)"
     icon: "Иконка"
     identifier:
     image: "Изображение"
@@ -770,6 +770,7 @@ ru:
     inventory_error_flash_for_insufficient_quantity: "Один из товаров вашей корзины стал недоступен."
     inventory_state:
     is_not_available_to_shipment_address: "не может быть применён к указанному адресу доставки"
+    is_published: "Опубликована"
     iso_name: "Имя согласно ISO"
     item: "Наименование"
     item_description: "Описание товара"
@@ -808,6 +809,7 @@ ru:
     logout: "Выйти"
     logs: "Журналы событий"
     look_for_similar_items: "Посмотрите похожие товары"
+    main_image: "Главное изображение"
     make_refund: "Сделать возврат"
     make_sure_the_above_reimbursement_amount_is_correct:
     manage_promotion_categories:
@@ -895,6 +897,7 @@ ru:
       product_not_deleted: "Товар не может быть удалён"
       variant_deleted: "Вариант успешно удалён"
       variant_not_deleted: "Вариант не может быть удален"
+    number: "Номер"
     num_orders: "Кол-во заказов"
     on_hand: "В наличии"
     open: "Открыть"
@@ -912,7 +915,7 @@ ru:
     order_adjustments: "Корректировки заказа"
     order_already_updated:
     order_approved: "Заказ подтвержден"
-    order_canceled:
+    order_canceled: "Заказ отменён"
     order_details: "Реквизиты заказа"
     order_email_resent: "Письмо с описанием заказа выслано повторно"
     order_information: "Информация"
@@ -1241,36 +1244,36 @@ ru:
     state: "Регион/Область"
     state_based: "Есть области"
     state_machine_states:
-      accepted:
-      address:
+      accepted: "Подтверждён"
+      address: "Заполнение адреса"
       authorized:
       awaiting:
       awaiting_return:
-      backordered:
-      canceled:
-      cart:
-      checkout:
-      closed:
-      complete:
-      completed:
-      confirm:
-      delivery:
+      backordered: "Предзаказан"
+      canceled: "Отменён"
+      cart: "Корзина"
+      checkout: "Оплата"
+      closed: "Закрыт"
+      complete: "Завершить"
+      completed: "Завершён"
+      confirm: "Подтверждён"
+      delivery: "Доставка"
       errored:
       failed:
-      given_to_customer:
+      given_to_customer: "Передан клиенту"
       invalid:
       manual_intervention_required:
       on_hand:
-      open:
+      open: "Открыт"
       order:
-      payment:
-      pending:
-      processing:
-      ready:
+      payment: "В процессе оплаты"
+      pending: "Ожидает"
+      processing: "В обработке"
+      ready: "Готов"
       reimbursed:
       resumed:
-      returned:
-      shipped:
+      returned: "Возвращён"
+      shipped: "Отправлен"
       void:
     states: "Регионы/Области"
     states_required: "Регионы обязательны"
@@ -1289,13 +1292,15 @@ ru:
     stock_transfers: "Движения товаров"
     stop: "Конец"
     store: "В магазин"
+    store_credit_categories: "Программы лояльности"
     street_address: "Адрес"
     street_address_2: "Адрес (строка 2)"
+    subtitle: "Подзаголовок"
     subtotal: "Подытог"
     subtract: "Вычет"
-    success:
+    success: "Успех"
     successfully_created: "%{resource} был успешно создан!"
-    successfully_refunded:
+    successfully_refunded: "%{resource} был успешно возмещён!"
     successfully_removed: "%{resource} был успешно удален!"
     successfully_signed_up_for_analytics: "Успешно авторизованы в Spree Analytics"
     successfully_updated: "%{resource} был успешно обновлен!"
@@ -1303,7 +1308,7 @@ ru:
     tax: "Налог"
     tax_categories: "Категории налогов"
     tax_category: "Категория налогов"
-    tax_code:
+    tax_code: "Кодовое обозначение налога"
     tax_included: "Вкл. налоги"
     tax_rate_amount_explanation: "Налоговые ставки вводятся как десятичные значения (напр. если налог 5%, то вводите 0.05)"
     tax_rates: "Налоговые ставки"
@@ -1313,8 +1318,8 @@ ru:
     taxon_rule:
       choose_taxons:
       label:
-      match_all:
-      match_any:
+      match_all: "Соответствует всем"
+      match_any: "Соответствует одному из"
     taxonomies: "Таксономии"
     taxonomy: "Таксономия"
     taxonomy_edit: "Редактирование таксономии"
@@ -1322,6 +1327,7 @@ ru:
     taxonomy_tree_instruction: "* Щёлкните правой кнопкой мыши на элеменете дерева для добавления, удаления или сортировки таксонов."
     taxons: "Таксоны"
     test: "Тест"
+    text: "Содержание"
     test_mailer:
       test_email:
         greeting: "Поздравляем!"
@@ -1337,18 +1343,19 @@ ru:
     tiered_percent:
     tiers:
     time: "Время"
+    title: "Название"
     to_add_variants_you_must_first_define: "Перед добавлением вариантов, вы должны определить"
     total: "Итого"
     total_per_item:
     total_pre_tax_refund:
-    total_price:
+    total_price: "Итого"
     total_sales: "Всего продано на"
     track_inventory: "Отслеживать наличие"
     tracking: "Отслеживание"
     tracking_number: "Трекинговый номер"
     tracking_url: "Трекинговый URL"
     tracking_url_placeholder: "например, http://quickship.com/package?num=:tracking"
-    transaction_id:
+    transaction_id: "Номер транзакции"
     transfer_from_location: "Перевести из"
     transfer_stock: "Перевести Товар"
     transfer_to_location: "Перевести на"

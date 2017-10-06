@@ -123,7 +123,7 @@ it:
         mail_from_address: Indirizzo Mittente Email
         meta_description: Meta Description
         meta_keywords: Meta Keywords
-        name: Nomed
+        name: Nome
         seo_title: Titolo SEO
         url: URL Sito
       spree/tax_category:
@@ -665,7 +665,7 @@ it:
         no_payment_methods_available: Non ci sono metodi di pagamenti configurati per questo ambiente
         no_shipping_methods_available: "Non ci sono metodi di spedizione disponibili per l'indirizzo scelto, prova ancora."
     errors_prohibited_this_record_from_being_saved:
-      one: un errore non ha permesso di salvare questo record
+      one: Un errore non ha permesso di salvare questo record
       other: "%{count} errori non hanno permesso di salvare questo record"
     event: Evento
     events:

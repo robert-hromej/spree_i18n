@@ -665,7 +665,7 @@ fr:
     analytics_trackers: Traqueurs analytiques
     and: et
     approve: Approuver
-    approved_at: approuver le
+    approved_at: approuvé le
     approver: Approbateur
     are_you_sure: En êtes-vous sûr ?
     are_you_sure_delete: "Êtes-vous sûr de vouloir supprimer cet enregistrement ?"
@@ -735,7 +735,7 @@ fr:
     close_all_adjustments: Fermer tous les ajustements
     code: Code
     company: Entreprise
-    complete: compléter
+    complete: Terminé
     configuration: Configuration
     configurations: Configurations
     confirm: Confirmation
@@ -967,8 +967,8 @@ fr:
         lte: égal ou plus petit que
     items_cannot_be_shipped: Il nous est impossible de livrer l'article sélectionné à votre adresse de livraison. Veuillez choisir une autre adresse de livraison.
     items_in_rmas:
-    items_reimbursed:
-    items_to_be_reimbursed:
+    items_reimbursed: Articles remboursés
+    items_to_be_reimbursed: Articles à rembourser
     jirafe: Jirafe
     landing_page_rule:
       path: Chemin
@@ -976,7 +976,8 @@ fr:
     last_name_begins_with: Le nom commmence par
     learn_more: Pour en savoir plus
     lifetime_stats: Statistiques à vie
-    line_item_adjustments:
+    line_item_adjustments: Ajustements sur les articles
+    order_line_items: Articles de la commande
     list: Liste
     loading: Chargement
     locale_changed: Paramètres régionaux changés
@@ -1189,7 +1190,7 @@ fr:
     preferred_reimbursement_type:
     presentation: Présentation
     previous: Précédent
-    previous_state_missing:
+    previous_state_missing: État précédent manquant
     price: Prix
     price_range: Prix
     price_sack: Prix du sac
